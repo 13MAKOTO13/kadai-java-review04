@@ -9,12 +9,12 @@ public class Review04 {
 
 	    	Animal suzuki0 = new Animal("鈴木 次郎",30);
 	    	suzuki0.say();
-	    	Human suzuki1 = new Human("電車");
+	    	Human suzuki1 = new Human("野球");
 	    	suzuki1.think();
 
 	    	Animal satou0  = new Animal("佐藤 花子",20);
 	    	satou0.say();
-	    	Human satou1 = new Human("電車");
+	    	Human satou1 = new Human("映画");
 	    	satou1.think();
 }
 }
