@@ -3,22 +3,21 @@ package animal;
 public class Human extends Animal implements Thinkable {
 	private String hobby;
 
-	// コンストラクタ
 	public Human() {
 	}
 
-	// 引数ありコンストラクタ
-	public Human(String hobby) {
-	    this.hobby = hobby;
-	    }
+	public Human(String name, int age,String hobby) {
+		super(name,age);
+		this.hobby = hobby;
+	}
 
-	//getter&setterの作成
+	//getter,setter
 	public String getHobby() {
-	    return hobby;
+		return hobby;
 	}
 
 	public void setHobby(String hobby) {
-	    this.hobby = hobby;
+		this.hobby = hobby;
 	}
 
 	//私の()について。メソッド
